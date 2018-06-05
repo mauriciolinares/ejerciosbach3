@@ -10,3 +10,7 @@ class regresa{
 }
 const regreso= new regresa("FABIAN")
 regreso.presente();
+
+var cadena = "alicia";
+var longitudCadena = cadena.length;
+console.log(`aqui regreso cualquier ultima letra `+cadena[longitudCadena - 1]); // Muestra el últim caracter->as
